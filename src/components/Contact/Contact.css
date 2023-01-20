@@ -1,0 +1,43 @@
+.contactContainer {
+  text-align: center;
+  padding: 10px 300px 100px !important;
+}
+
+.contactBlurb {
+  text-align: center;
+  font-family: var(--font-nunito-sans-regular);
+  font-size: 20px;
+  color: var(--grey);
+  margin: 20px;
+}
+
+.contactButton {
+  border-radius: 60px !important;
+  border: none !important;
+  box-shadow: 0 3px 8px var(--navy);
+  background-color: var(--dark-teal) !important;
+  font-family: var(--font-nunito-sans-bold);
+  color: white !important;
+  padding: 15px 25px 15px !important;
+}
+.contactButton:hover {
+  box-shadow: inset 0 0 10px var(--navy);
+}
+
+.contactPage {
+  position: relative;
+  background-color: var(--very-light-teal);
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .contactBlurb {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contactContainer {
+    padding: 10px 20px 100px !important;  
+  }
+}

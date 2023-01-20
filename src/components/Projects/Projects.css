@@ -1,0 +1,51 @@
+.projectsPage {
+  position: relative;
+}
+
+.projectGridContainer {
+  padding: 30px 200px 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+
+.projectCard {
+  font-family: var(--font-nunito-sans-regular) !important;
+  background-color: var(--very-light-teal) !important;
+  border: none !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+  transform: scale(1);
+}
+.projectCard:hover {
+  transform: scale(1.05);
+  transition: all 100ms ease-in-out 0s;
+}
+
+.projectTitle {
+  color: var(--navy);
+  font-family: var(--font-nunito-sans-bold) !important;
+}
+
+.projectDescription {
+  color: var(--grey);
+}
+
+.projectGitHub {
+  color: var(--grey);
+  width: 20px;
+  height: 20px;
+}
+.projectGitHub:hover {
+  color: var(--dark-teal);
+}
+
+.projectTools {
+  background-color: var(--very-light-teal) !important;
+  border: none !important;
+} 
+
+@media screen and (max-width: 600px) {
+  .projectGridContainer {
+    padding: 30px 30px 100px;
+  }
+}

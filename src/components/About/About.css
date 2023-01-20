@@ -1,0 +1,43 @@
+.aboutPage {
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutSection {
+  padding: 50px 100px 100px !important;
+}
+
+.profile {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.profilePic {
+  background-color: var(--light-teal);
+  width: 300px; 
+  border-radius: 50% !important; 
+}
+
+.aboutName {
+  font-family: var(--font-nunito-sans-bold);
+  font-size: 25px;
+  color: var(--navy);
+  text-align: center;
+}
+
+.aboutInfo {
+  font-family: var(--font-nunito-sans-regular);
+  font-size: 17px;
+  color: var(--grey);
+  text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .aboutInfo {
+    text-align: center;
+  }
+
+  .aboutSection {
+    padding: 50px 30px 100px !important;
+  }
+}

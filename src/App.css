@@ -1,0 +1,43 @@
+:root {
+  --navy: #151c3a;
+  --dark-teal: #1b8f9f;
+  --light-teal: #aeeef0;
+  --very-light-teal: #d7f7f8;
+  --lightest-teal: #f0ffff;
+  --grey: #404040;
+  --light-grey: #808080;
+  --very-light-grey: #d0d0d0;
+  --translucent: #ffffff80;
+  --font-nunito-sans-regular: 'Nunito Sans Regular', Arial, Helvetica, sans-serif;
+  --font-nunito-sans-bold: 'Nunito Sans Bold', Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sectionHeader {
+  text-align: center;
+  font-family: var(--font-nunito-sans-bold);
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: var(--navy);
+  text-transform: uppercase;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.headerLine {
+  border-top: 3px solid var(--dark-teal);
+  width: 70px;
+  margin: auto;
+}
+
+.highlight {
+  color: var(--dark-teal);
+  font-family: var(--font-nunito-sans-bold);
+}
+
+.bold {
+  font-family: var(--font-nunito-sans-bold);
+}

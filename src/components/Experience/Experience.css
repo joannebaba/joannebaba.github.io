@@ -1,0 +1,65 @@
+.experiencePage {
+  position: relative;
+}
+
+.jobTitle {
+  font-family: var(--font-nunito-sans-bold) !important;
+  font-size: 19px;
+  color: var(--navy);
+  padding-top: 30px;
+}
+
+.date {
+  font-family: var(--font-nunito-sans-regular) !important;
+  font-size: 16px;
+  color: var(--light-grey);
+}
+
+.jobDescription {
+  font-family: var(--font-nunito-sans-regular) !important;
+  font-size: 16px;
+  color: var(--grey);
+  padding-inline-start: 25px;
+  padding-top: 10px;
+  list-style-image: url('../../images/icons/Circle.svg');
+}
+
+.jobDescriptionBullets {
+  padding-left: 10px;
+}
+
+.experienceContainer {
+  padding: 30px 200px 100px !important;
+}
+
+.experienceTabContainer {
+  justify-content: center !important;
+  font-family: var(--font-nunito-sans-regular) !important;
+  border: none !important;
+}
+
+.experienceTab {
+  color: var(--grey) !important;
+  font-family: var(--font-nunito-sans-bold) !important;
+  border: none !important;
+  border-top-left-radius: 0rem !important;
+  border-top-right-radius: 0rem !important;
+  border-bottom: 2px solid var(--very-light-grey) !important;
+  flex-basis: 0 !important;
+  flex-grow: 1 !important;
+}
+.experienceTab:hover {
+  color: var(--dark-teal) !important;
+  background-color: transparent !important;
+}
+.experienceTab.active {
+  color: var(--dark-teal) !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid var(--dark-teal) !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .experienceContainer {
+    padding: 30px 30px 100px !important;
+  }
+}
